@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 20171215193228) do
   create_table "order_line_items", force: :cascade do |t|
     t.bigint "product_id"
     t.bigint "order_id"
+    t.string "product_name"
+    t.float "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["order_id"], name: "index_order_line_items_on_order_id"
