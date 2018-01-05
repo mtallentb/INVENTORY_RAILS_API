@@ -14,11 +14,36 @@
     }])
 end
 
-10.times do |f|
+def create_category(name)
     Category.create([{
-        category_name: Faker::Commerce.department
+        category_name: name
     }])
 end
+
+create_category("Men's T-Shirts")
+create_category("Men's Hoodies")
+create_category("Men's Pants")
+create_category("Men's Shorts")
+create_category("Men's Jackets")
+create_category("Men's Hats")
+create_category("Men's Socks")
+create_category("Women's T-Shirts")
+create_category("Women's Tank Tops")
+create_category("Women's Hoodies")
+create_category("Women's Jackets")
+create_category("Women's Shorts")
+create_category("Women's Hats")
+create_category("Women's Socks")
+create_category("Kids' T-Shirts")
+create_category("Kids' Hoodies")
+create_category("Kids' Pants")
+create_category("Kids' Shorts")
+create_category("Ties")
+create_category("Cups")
+create_category("Mugs")
+create_category("Towels")
+create_category("Flags")
+create_category("Keychains")
 
 20.times do |f|
     Product.create([{
