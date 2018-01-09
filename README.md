@@ -102,7 +102,7 @@ Check `rails --version` to see if it is installed.
 ## Tech Stack
 
 * [Rails 5](http://rubyonrails.org/)
-* [PostGres](https://www.postgresql.org/)
+* [PostGresQL](https://www.postgresql.org/)
 
 ## Author
 
